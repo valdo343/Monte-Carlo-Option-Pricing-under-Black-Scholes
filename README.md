@@ -25,6 +25,17 @@ $$
 S_T = S_0 \exp((r - 0.5\sigma^2)T + \sigma \sqrt{T}Z)
 $$
 
+## Relevance to Risk Model Validation
+
+This project illustrates a basic model validation workflow for derivative valuation:
+- pricing European options under Black-Scholes and risk-neutral Monte Carlo simulation,
+- comparing Monte Carlo estimates against closed-form benchmarks,
+- estimating pricing uncertainty through confidence intervals,
+- computing sensitivities/Greeks through finite differences,
+- analyzing the impact of volatility as a market parameter.
+
+These components are directly related to derivative valuation, sensitivity validation, and quantitative risk model review.
+
 ## Example Results
 
 The notebook compares Monte Carlo prices against the Black-Scholes benchmark
